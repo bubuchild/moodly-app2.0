@@ -140,7 +140,7 @@
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Y6D-D8-3a0" kind="presentation" identifier="signupSuccesfullView" id="JFh-0J-7BM"/>
+                                    <action selector="signUpAction:" destination="KqU-EP-khB" eventType="touchUpInside" id="AAX-ql-0Mn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkF-dO-oZn">
@@ -159,6 +159,13 @@
                         <viewLayoutGuide key="safeArea" id="bvv-dI-9N0"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPassword" destination="Vk8-1o-NKO" id="KQw-Ca-GH5"/>
+                        <outlet property="email" destination="ka0-N2-Ne4" id="TMk-BO-UGE"/>
+                        <outlet property="lastName" destination="YWL-jq-If8" id="GbI-k1-vjn"/>
+                        <outlet property="password" destination="T1Y-ga-1fU" id="7ip-Bs-Dly"/>
+                        <segue destination="Y6D-D8-3a0" kind="presentation" identifier="signupToHome" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lH9-Sc-mdN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOx-ld-BTf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -235,17 +242,22 @@
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Y6D-D8-3a0" kind="presentation" identifier="loginSuccesfulView" modalPresentationStyle="fullScreen" id="dkz-O0-Xb8"/>
+                                    <action selector="loginAction:" destination="aUr-Os-FU0" eventType="touchUpInside" id="Fgt-id-WQw"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XGa-xF-UY3"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="rYC-ws-aUo" id="cGQ-Am-HB3"/>
+                        <outlet property="password" destination="qjT-UO-fMe" id="j7b-bY-Ppn"/>
+                        <segue destination="Y6D-D8-3a0" kind="presentation" identifier="loginToHome" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="5Uh-jj-dJ7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rx-uk-DXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2097.1014492753625" y="-250.44642857142856"/>
+            <point key="canvasLocation" x="2097" y="-246"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eGK-Fy-oMA">
@@ -303,7 +315,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dkz-O0-Xb8"/>
+        <segue reference="5Uh-jj-dJ7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemPurpleColor">
