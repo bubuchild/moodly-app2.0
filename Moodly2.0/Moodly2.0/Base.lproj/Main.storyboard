@@ -188,7 +188,7 @@
         <!--More View Controller-->
         <scene sceneID="gAI-v6-Gff">
             <objects>
-                <viewController id="JhU-nI-H2c" customClass="MoreViewController" sceneMemberID="viewController">
+                <viewController id="JhU-nI-H2c" customClass="MoreViewController" customModule="Moodly2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YrY-qL-wHA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,9 +208,7 @@
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="logInAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="a6P-5A-aSe"/>
-                                    <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="mdM-Ni-yBb"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" id="hOV-96-jA0"/>
+                                    <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="QOC-BK-lyT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -383,8 +381,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="khR-Fo-L5P"/>
-        <segue reference="hOV-96-jA0"/>
+        <segue reference="4yW-4f-lFX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="app" catalog="system" width="128" height="114"/>

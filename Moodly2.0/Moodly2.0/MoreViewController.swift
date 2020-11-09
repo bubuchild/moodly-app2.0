@@ -29,7 +29,6 @@ class MoreViewController: UIViewController {
                 let initial = storyboard.instantiateInitialViewController()
                 UIApplication.shared.keyWindow?.rootViewController = initial
     }
-    
 }
     
 
