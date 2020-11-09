@@ -13,5 +13,6 @@ target 'Moodly2.0' do
   #Pods for Moodly App 2.0
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'SideMenu'
 
 end
