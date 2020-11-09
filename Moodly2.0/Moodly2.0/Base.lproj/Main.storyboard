@@ -209,7 +209,7 @@
                                 </state>
                                 <connections>
                                     <action selector="logInAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="a6P-5A-aSe"/>
-                                    <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="8BC-rH-T62"/>
+                                    <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="mdM-Ni-yBb"/>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="hOV-96-jA0"/>
                                 </connections>
                             </button>
