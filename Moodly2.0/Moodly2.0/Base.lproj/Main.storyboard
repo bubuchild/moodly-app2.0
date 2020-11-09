@@ -20,7 +20,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq6-1g-b3d">
                                 <rect key="frame" x="0.0" y="477" width="414" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.41356994984225248" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -32,7 +32,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWP-fW-Mxf">
                                 <rect key="frame" x="0.0" y="547" width="414" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
                                 <state key="normal" title="SIGN UP">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -44,11 +44,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kjl-vo-HtQ">
                                 <rect key="frame" x="113" y="168" width="188" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="1" green="0.4135699498" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="0.62168469812538119" blue="0.13808180237452461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="iCD-6C-6bH"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -72,21 +72,21 @@
                                 <rect key="frame" x="135" y="72" width="145" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jj-10-EAc">
                                 <rect key="frame" x="75" y="153" width="57" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HX-sv-1vK">
                                 <rect key="frame" x="76" y="243" width="113" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emain" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ka0-N2-Ne4">
@@ -100,7 +100,7 @@
                                 <rect key="frame" x="75" y="417" width="102" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T1Y-ga-1fU">
@@ -114,7 +114,7 @@
                                 <rect key="frame" x="75" y="502" width="191" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emain" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vk8-1o-NKO">
@@ -135,7 +135,7 @@
                                 <rect key="frame" x="75" y="331" width="112" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last name " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YWL-jq-If8">
@@ -148,7 +148,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-qT-eTO">
                                 <rect key="frame" x="136" y="631" width="143" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.45392928700000001" green="0.1757806241" blue="0.53811072339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -160,7 +160,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mkF-dO-oZn">
                                 <rect key="frame" x="152" y="711" width="111" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -171,7 +171,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bvv-dI-9N0"/>
-                        <color key="backgroundColor" red="0.9570979476" green="0.62871158120000004" blue="0.28433761000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="confirmPassword" destination="Vk8-1o-NKO" id="KQw-Ca-GH5"/>
@@ -185,6 +185,136 @@
             </objects>
             <point key="canvasLocation" x="2097.1014492753625" y="522.99107142857144"/>
         </scene>
+        <!--Read-->
+        <scene sceneID="LL5-Jh-omG">
+            <objects>
+                <viewController id="zOx-rf-Ras" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zlm-hf-w61">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FUc-vU-KJO">
+                                <rect key="frame" x="52" y="138" width="157" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="How to make your day more productive">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="P4g-ui-J3y" kind="presentation" id="gjX-1f-FAm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9f3-ji-pLK"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Read" id="SPV-XO-Rej"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1F-9X-Fg8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4369.5652173913049" y="1585.7142857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cic-uI-kWL">
+            <objects>
+                <viewController id="P4g-ui-J3y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mbB-Cr-5wh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-pa-zaR">
+                                <rect key="frame" x="45" y="187" width="325" height="974"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">I don’t know anyone who couldn’t use a little boost in their energy and self-control.
+
+Researchers at the University of Nottingham recently published findings from their exploration of 83 separate studies on energy and self-control. What they found will change the way you start your day.
+
+The researchers found that self-control and energy are not only intricately linked but also finite, daily resources that tire much like a muscle. Even though we don’t always realize it, as the day goes on, we have increased difficulty exerting self-control and focusing on our work. As self-control wears out, we feel tired and find tasks to be more difficult and our mood sours.
+
+This exhaustion of self-control kills your productivity, and it makes the morning hours, when self-control is highest, the most important hours of the day.
+
+Related: 9 Habits of Profoundly Influential People
+
+But the trick isn’t just to spend your morning hours working; it’s to do the right things in the morning that will make your energy and self-control last as long as possible.
+
+“For the past 33 years, I have looked in the mirror every morning and asked myself: ‘If today were the last day of my life, would I want to do what I am about to do today?’ And whenever the answer has been ‘No’ for too many days in a row, I know I need to change something.” – Steve Jobs
+
+The Nottingham research has led me to uncover 11 powerful ways we can break bad habits in the morning and maximize our energy and self-control throughout the day.
+
+Whether you naturally wake up feeling alert and productive or wake up with the brainpower of a zombie, these tips will help you transform your morning routine and set a positive tone that lasts the entire day.
+
+1. Start with exercise
+Researchers at the University of Bristol found that people who exercise during the workday have more energy and a more positive outlook, which are both critical to getting things done. Getting your body moving for as little as 10 minutes releases GABA, a neurotransmitter that makes your brain feel soothed and keeps you in control of your impulses. Exercising first thing in the morning ensures that you’ll have the time for it, and it improves your self-control and energy levels all day long.
+
+2. But drink some lemon water first
+Drinking lemon water as soon as you wake up spikes your energy levels physically and mentally. Lemon water gives you steady, natural energy that lasts the length of the day by improving nutrient absorption in your stomach. You need to drink it first thing in the morning (on an empty stomach) to ensure full absorption. You should also wait 15-30 minutes after drinking it before eating (perfect time to squeeze in some exercise). Lemons are packed with nutrients; they’re chock full of potassium, vitamin C, and antioxidants. If you’re under 150 pounds, drink the juice of half a lemon (a full lemon if you’re over 150 pounds). Don’t drink the juice without water because it’s hard on your teeth.
+
+3. No screen time until breakfast
+When you dive straight into e-mails, texts, and Facebook, you lose focus and your morning succumbs to the wants and needs of other people. It’s much healthier to take those precious first moments of the day to do something relaxing that sets a calm, positive tone for your day. Jumping right into electronics has the opposite effect—it’s a frantic way to start your day. Exercising, meditating, or even watching the birds out the window are all great ways to start the day.
+
+4. Eat a real breakfast
+Eating anything at all for breakfast puts you ahead of a lot of people. People who eat breakfast are less likely to be obese, they have more stable blood-sugar levels, and they tend to be less hungry over the course of the day. And these are just the statistics for people who eat any breakfast. When you eat a healthy breakfast, the doors to a productive day swing wide open. A healthy breakfast gives you energy, improves your short-term memory, and helps you to concentrate more intensely and for longer periods.
+
+5. Set goals for the day
+Research shows that having concrete goals is correlated with huge increases in confidence and feelings of control. Setting goals specific to the day puts everything into motion. Narrow your goals down to a few achievable ones that can easily be broken down into steps. Vague goals such as “I want to finish writing my article” are counter-productive because they fail to include the “how” of things. The same goal re-phrased in a more functional way would read something like this: “I am going to finish my article by writing each of the three sections, spending no more than an hour on each section.” Now, you have more than simply something you want to achieve—you have a way to achieve it.
+
+Getting your morning started off right at home is important, but it’s only half the battle. If you fail to maintain that tone once you set foot in the office, your morning can lose momentum quickly. Here’s how you can maintain a productive tone once you hit the office:
+
+Related: How Positivity Makes You Healthy and Successful
+
+1. First, clean your workspace
+Even though it’s a pain to clean right when you get into work, it makes a big difference to your ability to concentrate. A Princeton University study found that people who worked in a clean workspace out-performed those who worked in a cluttered one because clutter pulls your attention away from your work. In fact, the effects of clutter on concentration are not all that different from the effects of multi-tasking.
+
+2. No e-mail until you've eaten three frogs
+“Eat a live frog first thing in the morning, and nothing worse will happen to you the rest of the day.” – Mark Twain
+
+“Eating a frog” is the greatest antidote to procrastination, and the most productive people know the importance of biting into this delicacy first thing in the morning. In other words, spend your morning on something that requires a high level of concentration that you don’t want to do, and you’ll get it done in short order. Make a habit of eating three frogs before you check your e-mail because e-mail is a major distraction that enables procrastination and wastes precious mental energy.
+
+3. Assign times to your to-do list, and monitor your progress against your goals
+To-do lists are helpful for making sure you don’t forget anything, but beyond that, they can be misleading. For example, if you have three hours of meetings and eight hours of work, chances are you won’t be able to get everything done. However, a typical to-do list doesn’t tell you that you have eight hours of work; it only tells you that you have ten things you need to do. When you add time frames to your do-list, it becomes exponentially more effective. It pushes you to avoid procrastinating or multi-tasking in order to complete things within the allotted time. It also shows you what is and isn’t feasible so that you can prioritize your day accordingly.
+
+There’s no point in setting goals in the morning if you don’t check in on them. Look at what you’ve done so far with a critical eye. If you realize you’re behind schedule or doing a shoddy job, it’s important to adjust your goals or your work ethic so that you can move intentionally through your day.
+
+4. Keep morning meetings on schedule
+Meetings are the biggest time waster there is, and they can ruin an otherwise productive morning. People who use their mornings effectively know that a meeting will drag on forever if they let it, so they inform everyone at the onset that they’ll stick to the intended schedule. This sets a limit that motivates everyone to be more focused and efficient. Keep your morning meetings on time, and your entire day will stay on track.
+
+5. Don’t multitask
+Multi-tasking in the morning—when you have lots to do, tons of energy, and it feels like you can do two or three things at once—is tempting, but it sets your whole day back. Research conducted at Stanford University confirmed that multitasking is less productive than doing a single thing at a time. The researchers found that people who are regularly bombarded with several streams of electronic information cannot pay attention, recall information, or switch from one job to another as well as those who complete one task at a time.
+
+But what if some people have a special gift for multitasking? The Stanford researchers compared groups of people based on their tendency to multitask and their belief that it helps their performance. They found that heavy multitaskers (those who multitask a lot and feel that it boosts their performance) were actually worse at multitasking than those who like to do a single thing at a time. The frequent multitaskers performed worse because they had more trouble organizing their thoughts and filtering out irrelevant information, and they were slower at switching from one task to another. Ouch!
+
+Multitasking reduces your efficiency and performance because your brain can only focus adequately on one thing at a time. When you try to do two things at once, your brain lacks the capacity to perform both tasks successfully.
+
+6. Say no
+No is a powerful word that will protect your precious mornings. When it’s time to say no, avoid phrases such as “I don’t think I can” or “I’m not certain.” Saying no to a new commitment honors your existing commitments and gives you the opportunity to successfully fulfill them while your mind is fresh. Research conducted at the University of California in San Francisco showed that the more difficulty that you have saying no, the more likely you are to experience stress, burnout, and even depression. Learn to use no, and it will lift your mood as well as your productivity.
+
+Bringing it all together
+The right morning routine can make your day, every day. The trick is to be intentional about your mornings, understanding that a.m. hours are precious and should be handled with care.
+
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="11 Tweaks to Your Daily  Routine Will Make Your Day More Productive" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZK-j8-glV">
+                                <rect key="frame" x="35" y="0.0" width="345" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HfD-Uu-gqZ"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZfM-Vy-ll5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5244.9275362318849" y="1603.7946428571429"/>
+        </scene>
         <!--More View Controller-->
         <scene sceneID="gAI-v6-Gff">
             <objects>
@@ -193,13 +323,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SEttings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ku-lx-KEK">
-                                <rect key="frame" x="186" y="242" width="64" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e27-h0-xwy">
                                 <rect key="frame" x="154" y="652" width="107" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -213,41 +336,50 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bNn-pV-fSz"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="kHe-TN-C2p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONY-Ry-mMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4105.7971014492759" y="466.74107142857139"/>
+            <point key="canvasLocation" x="5297" y="808"/>
         </scene>
-        <!--Home-->
+        <!--Home View Controller-->
         <scene sceneID="gek-eb-VnI">
             <objects>
-                <viewController id="bvm-tX-bfj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="bvm-tX-bfj" customClass="homeViewController" customModule="Moodly2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cKs-IR-CWk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RX-b6-E9d">
-                                <rect key="frame" x="192" y="628" width="46" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlr-0R-SDO">
+                                <rect key="frame" x="113" y="463" width="189" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Take a daily test">
+                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj9-bb-T1N">
+                                <rect key="frame" x="20" y="110" width="374" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VSn-Ep-HE0"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="cn9-Xa-0Yn">
-                        <imageReference key="image" image="house.fill" catalog="system" symbolScale="default"/>
-                        <color key="badgeColor" systemColor="secondarySystemBackgroundColor"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="sux-FL-i1Z"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="dj9-bb-T1N" id="NSe-qU-gPV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1LK-7M-Pd6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4105.7971014492759" y="-223.66071428571428"/>
+            <point key="canvasLocation" x="3409" y="1586"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="uh8-dp-HJW">
@@ -258,16 +390,18 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.9570979476" green="0.42794261131433187" blue="0.00032203060986083149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemBlueColor"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="bvm-tX-bfj" kind="relationship" relationship="viewControllers" id="CfB-47-j54"/>
+                        <segue destination="m2J-jX-qF7" kind="relationship" relationship="viewControllers" id="CfB-47-j54"/>
+                        <segue destination="NTn-Hk-RsW" kind="relationship" relationship="viewControllers" id="rD0-3B-Lim"/>
                         <segue destination="JhU-nI-H2c" kind="relationship" relationship="viewControllers" destinationCreationSelector="allowsSelection" id="6cm-2a-E8Q"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9O-7f-d12" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3219" y="68"/>
+            <point key="canvasLocation" x="3199" y="80"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="yoh-Ry-NOt">
@@ -277,26 +411,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph9-kQ-I48">
-                                <rect key="frame" x="148" y="205" width="118" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph9-kQ-I48">
+                                <rect key="frame" x="20" y="205" width="374" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="46"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="systemGray6Color"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTq-Wu-9rw">
                                 <rect key="frame" x="75" y="307" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="systemGray6Color"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-o2-dZL">
                                 <rect key="frame" x="75" y="411" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <color key="textColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="systemGray6Color"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emain" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="rYC-ws-aUo">
                                 <rect key="frame" x="75" y="345" width="265" height="34"/>
@@ -310,9 +444,9 @@
                                 <rect key="frame" x="75" y="449" width="265" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0J-6y-qgy">
                                 <rect key="frame" x="148" y="549" width="117" height="49"/>
@@ -326,7 +460,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifb-Ed-JFQ">
                                 <rect key="frame" x="150" y="628" width="114" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -338,7 +472,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-4Y-KCB">
                                 <rect key="frame" x="148" y="548" width="117" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.45392928700000001" green="0.1757806241" blue="0.53811072339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -349,7 +483,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XGa-xF-UY3"/>
-                        <color key="backgroundColor" red="0.9570979476" green="0.62871158120000004" blue="0.28433761000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="email" destination="rYC-ws-aUo" id="cGQ-Am-HB3"/>
@@ -359,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rx-uk-DXQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2097" y="-399"/>
+            <point key="canvasLocation" x="2095.6521739130435" y="-399.10714285714283"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eGK-Fy-oMA">
@@ -379,18 +513,88 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="80.357142857142847"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="WQ3-k0-DOn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m2J-jX-qF7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" largeContentSizeImage="house.fill" id="cn9-Xa-0Yn">
+                        <color key="badgeColor" systemColor="secondarySystemBackgroundColor"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="pRm-dk-I8C">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bvm-tX-bfj" kind="relationship" relationship="rootViewController" id="p42-xz-i7F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ksa-im-Nvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3408.6956521739135" y="795.53571428571422"/>
+        </scene>
+        <!--Read-->
+        <scene sceneID="kit-Rf-VyH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NTn-Hk-RsW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Read" id="vj3-bR-5KN">
+                        <imageReference key="image" image="books.vertical.fill" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="lz1-Jy-nnF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zOx-rf-Ras" kind="relationship" relationship="rootViewController" id="Ubs-8g-iBN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMo-Rp-45C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4370" y="808"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4yW-4f-lFX"/>
+        <segue reference="VKs-FE-4yQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="app" catalog="system" width="128" height="114"/>
+        <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

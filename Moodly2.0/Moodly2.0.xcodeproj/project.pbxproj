@@ -18,6 +18,7 @@
 		52C3C80A25548EAB0021C52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3C80825548EAB0021C52B /* Main.storyboard */; };
 		52C3C80C25548EAD0021C52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C3C80B25548EAD0021C52B /* Assets.xcassets */; };
 		52C3C80F25548EAD0021C52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C3C80D25548EAD0021C52B /* LaunchScreen.storyboard */; };
+		52E8FC192559F27000580DAF /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8FC182559F27000580DAF /* homeViewController.swift */; };
 		D71CF64CF9E4A2FA10424ECE /* Pods_Moodly2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F8FE0AECD905C3C24C759 /* Pods_Moodly2_0.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		52C3C80B25548EAD0021C52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C3C80E25548EAD0021C52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C3C81025548EAD0021C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E8FC182559F27000580DAF /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		B4CC23D3E55178FB74A4B5AC /* Pods-Moodly2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodly2.0.release.xcconfig"; path = "Target Support Files/Pods-Moodly2.0/Pods-Moodly2.0.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				52876EB4255496BA00563526 /* signupViewController.swift */,
 				520684FD2558A67500E03719 /* MainViewController.swift */,
 				520685002558AAA400E03719 /* MoreViewController.swift */,
+				52E8FC182559F27000580DAF /* homeViewController.swift */,
 			);
 			path = Moodly2.0;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				520684FE2558A67600E03719 /* MainViewController.swift in Sources */,
 				52876EB2255494CE00563526 /* loginViewController.swift in Sources */,
 				52C3C80725548EAB0021C52B /* ViewController.swift in Sources */,
+				52E8FC192559F27000580DAF /* homeViewController.swift in Sources */,
 				52876EB5255496BA00563526 /* signupViewController.swift in Sources */,
 				520685012558AAA400E03719 /* MoreViewController.swift in Sources */,
 				52C3C80325548EAB0021C52B /* AppDelegate.swift in Sources */,
