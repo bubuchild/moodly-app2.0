@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		520684DB2554B26600E03719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520684DA2554B26600E03719 /* GoogleService-Info.plist */; };
 		520684FE2558A67600E03719 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520684FD2558A67500E03719 /* MainViewController.swift */; };
 		520685012558AAA400E03719 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520685002558AAA400E03719 /* MoreViewController.swift */; };
 		52876EB2255494CE00563526 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876EB1255494CE00563526 /* loginViewController.swift */; };
 		52876EB5255496BA00563526 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52876EB4255496BA00563526 /* signupViewController.swift */; };
+		529A32F6255F014300F65AEB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A32F5255F014300F65AEB /* Service.swift */; };
+		529A32FA255F01B700F65AEB /* services.json in Resources */ = {isa = PBXBuildFile; fileRef = 529A32F9255F01B700F65AEB /* services.json */; };
+		529A32FD255F01C900F65AEB /* ServiceTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A32FC255F01C900F65AEB /* ServiceTheme.swift */; };
+		529A3301255F01ED00F65AEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 529A3300255F01ED00F65AEB /* GoogleService-Info.plist */; };
 		52A3E156255E25DA00464DC6 /* SearchFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E151255E25DA00464DC6 /* SearchFooter.swift */; };
 		52A3E157255E25DA00464DC6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E152255E25DA00464DC6 /* DetailViewController.swift */; };
 		52A3E158255E25DA00464DC6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E153255E25DA00464DC6 /* MasterViewController.swift */; };
-		52A3E159255E25DA00464DC6 /* CandyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E154255E25DA00464DC6 /* CandyTheme.swift */; };
-		52A3E15A255E25DA00464DC6 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3E155255E25DA00464DC6 /* Candy.swift */; };
-		52A3E15D255E266600464DC6 /* candies.json in Resources */ = {isa = PBXBuildFile; fileRef = 52A3E15C255E266600464DC6 /* candies.json */; };
 		52C3C80325548EAB0021C52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3C80225548EAB0021C52B /* AppDelegate.swift */; };
 		52C3C80525548EAB0021C52B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3C80425548EAB0021C52B /* SceneDelegate.swift */; };
 		52C3C80725548EAB0021C52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3C80625548EAB0021C52B /* ViewController.swift */; };
@@ -32,17 +32,17 @@
 /* Begin PBXFileReference section */
 		002F8FE0AECD905C3C24C759 /* Pods_Moodly2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moodly2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F91D25D33D6B26EA950766 /* Pods-Moodly2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodly2.0.debug.xcconfig"; path = "Target Support Files/Pods-Moodly2.0/Pods-Moodly2.0.debug.xcconfig"; sourceTree = "<group>"; };
-		520684DA2554B26600E03719 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		520684FD2558A67500E03719 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		520685002558AAA400E03719 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		52876EB1255494CE00563526 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		52876EB4255496BA00563526 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		529A32F5255F014300F65AEB /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		529A32F9255F01B700F65AEB /* services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = services.json; sourceTree = "<group>"; };
+		529A32FC255F01C900F65AEB /* ServiceTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTheme.swift; sourceTree = "<group>"; };
+		529A3300255F01ED00F65AEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		52A3E151255E25DA00464DC6 /* SearchFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFooter.swift; sourceTree = "<group>"; };
 		52A3E152255E25DA00464DC6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		52A3E153255E25DA00464DC6 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		52A3E154255E25DA00464DC6 /* CandyTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyTheme.swift; sourceTree = "<group>"; };
-		52A3E155255E25DA00464DC6 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
-		52A3E15C255E266600464DC6 /* candies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = candies.json; sourceTree = "<group>"; };
 		52C3C7FF25548EAB0021C52B /* Moodly2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodly2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C3C80225548EAB0021C52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C3C80425548EAB0021C52B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,13 +89,13 @@
 		52C3C80125548EAB0021C52B /* Moodly2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				52A3E15C255E266600464DC6 /* candies.json */,
-				52A3E155255E25DA00464DC6 /* Candy.swift */,
-				52A3E154255E25DA00464DC6 /* CandyTheme.swift */,
+				529A32F9255F01B700F65AEB /* services.json */,
+				529A32F5255F014300F65AEB /* Service.swift */,
 				52A3E152255E25DA00464DC6 /* DetailViewController.swift */,
 				52A3E153255E25DA00464DC6 /* MasterViewController.swift */,
+				529A32FC255F01C900F65AEB /* ServiceTheme.swift */,
 				52A3E151255E25DA00464DC6 /* SearchFooter.swift */,
-				520684DA2554B26600E03719 /* GoogleService-Info.plist */,
+				529A3300255F01ED00F65AEB /* GoogleService-Info.plist */,
 				52C3C80225548EAB0021C52B /* AppDelegate.swift */,
 				52C3C80425548EAB0021C52B /* SceneDelegate.swift */,
 				52C3C80625548EAB0021C52B /* ViewController.swift */,
@@ -190,10 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C3C80F25548EAD0021C52B /* LaunchScreen.storyboard in Resources */,
-				52A3E15D255E266600464DC6 /* candies.json in Resources */,
-				520684DB2554B26600E03719 /* GoogleService-Info.plist in Resources */,
+				529A32FA255F01B700F65AEB /* services.json in Resources */,
 				52C3C80C25548EAD0021C52B /* Assets.xcassets in Resources */,
 				52C3C80A25548EAB0021C52B /* Main.storyboard in Resources */,
+				529A3301255F01ED00F65AEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +248,14 @@
 			files = (
 				52A3E157255E25DA00464DC6 /* DetailViewController.swift in Sources */,
 				52A3E156255E25DA00464DC6 /* SearchFooter.swift in Sources */,
+				529A32F6255F014300F65AEB /* Service.swift in Sources */,
 				52F699D6255E0690003BFC0E /* callViewController.swift in Sources */,
 				520684FE2558A67600E03719 /* MainViewController.swift in Sources */,
 				52876EB2255494CE00563526 /* loginViewController.swift in Sources */,
-				52A3E159255E25DA00464DC6 /* CandyTheme.swift in Sources */,
+				529A32FD255F01C900F65AEB /* ServiceTheme.swift in Sources */,
 				52C3C80725548EAB0021C52B /* ViewController.swift in Sources */,
 				52E8FC192559F27000580DAF /* homeViewController.swift in Sources */,
 				52876EB5255496BA00563526 /* signupViewController.swift in Sources */,
-				52A3E15A255E25DA00464DC6 /* Candy.swift in Sources */,
 				52A3E158255E25DA00464DC6 /* MasterViewController.swift in Sources */,
 				520685012558AAA400E03719 /* MoreViewController.swift in Sources */,
 				52C3C80325548EAB0021C52B /* AppDelegate.swift in Sources */,

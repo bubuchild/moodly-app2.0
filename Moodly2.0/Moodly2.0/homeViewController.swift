@@ -1,9 +1,3 @@
-//
-//  homeViewController.swift
-//  Moodly2.0
-//
-//  Created by Now chill bubu on 09/11/2020.
-//
 
 import UIKit
 

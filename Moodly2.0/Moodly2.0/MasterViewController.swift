@@ -14,15 +14,10 @@ class MasterViewController: UIViewController {
     
     services = Services.services()
     
-    // 1
     searchController.searchResultsUpdater = self
-    // 2
     searchController.obscuresBackgroundDuringPresentation = false
-    // 3
     searchController.searchBar.placeholder = "Search"
-    // 4
     navigationItem.searchController = searchController
-    // 5
     definesPresentationContext = true
     
     searchController.searchBar.scopeButtonTitles = Services.Number.allCases.map { $0.rawValue }

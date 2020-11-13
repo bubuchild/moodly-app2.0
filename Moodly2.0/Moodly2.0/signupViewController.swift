@@ -1,9 +1,3 @@
-//
-//  signupViewController.swift
-//  Moodly2.0
-//
-//  Created by Now chill bubu on 05/11/2020.
-//
 
 import UIKit
 import FirebaseAuth

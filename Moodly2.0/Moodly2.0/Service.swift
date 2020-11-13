@@ -43,7 +43,7 @@ extension Services.Number: RawRepresentable {
 extension Services {
   static func services() -> [Services] {
     guard
-      let url = Bundle.main.url(forResource: "candies", withExtension: "json"),
+      let url = Bundle.main.url(forResource: "services", withExtension: "json"),
       let data = try? Data(contentsOf: url)
       else {
         return []
