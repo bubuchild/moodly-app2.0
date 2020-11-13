@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -29,10 +30,15 @@
                                     <segue destination="aUr-Os-FU0" kind="presentation" identifier="loginView" id="mLW-xw-nd7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWP-fW-Mxf">
-                                <rect key="frame" x="0.0" y="547" width="414" height="64"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kjl-vo-HtQ">
+                                <rect key="frame" x="113" y="168" width="188" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWP-fW-Mxf">
+                                <rect key="frame" x="0.0" y="556" width="414" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
                                 <state key="normal" title="SIGN UP">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,14 +47,9 @@
                                     <segue destination="KqU-EP-khB" kind="presentation" identifier="signupView" id="CYa-XX-RAn"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kjl-vo-HtQ">
-                                <rect key="frame" x="113" y="168" width="188" height="172"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="iCD-6C-6bH"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -148,7 +149,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-qT-eTO">
                                 <rect key="frame" x="136" y="631" width="143" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -171,7 +172,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bvv-dI-9N0"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <connections>
                         <outlet property="confirmPassword" destination="Vk8-1o-NKO" id="KQw-Ca-GH5"/>
@@ -193,10 +194,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FUc-vU-KJO">
-                                <rect key="frame" x="52" y="138" width="157" height="99"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2rZ-ry-pfF">
+                                <rect key="frame" x="218" y="272" width="152" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Natural depression treatments">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rvY-Y1-u2a" kind="presentation" id="csg-bU-CyP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Fqy-9q-yi3">
+                                <rect key="frame" x="218" y="414" width="152" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="How to meet new people during COVID-19 ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tOa-95-y6i" kind="presentation" id="M52-zp-tK2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D3U-zi-jXP">
+                                <rect key="frame" x="218" y="138" width="152" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="If You Feel Lost and Alone">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aU3-oV-G4M" kind="presentation" id="BY5-7L-DsC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FUc-vU-KJO">
+                                <rect key="frame" x="41" y="138" width="145" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="How to make your day more productive">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -205,9 +242,33 @@
                                     <segue destination="P4g-ui-J3y" kind="presentation" id="gjX-1f-FAm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jPH-lX-grG">
+                                <rect key="frame" x="41" y="272" width="145" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Songs to cheer you up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eVB-iE-51r" kind="presentation" id="cgZ-JT-mb9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0Kj-jg-mTm">
+                                <rect key="frame" x="41" y="414" width="145" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="What you can do for your mental health">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="12H-VM-lVX" kind="presentation" id="P30-fS-gaX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9f3-ji-pLK"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Read" id="SPV-XO-Rej"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -224,11 +285,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-pa-zaR">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-pa-zaR">
                                 <rect key="frame" x="0.0" y="153" width="414" height="974"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">I don’t know anyone who couldn’t use a little boost in their energy and self-control.
+                                <string key="text">I don’t know anyone who couldn’t use a little boost in their energy and self-control.
 
 Researchers at the University of Nottingham recently published findings from their exploration of 83 separate studies on energy and self-control. What they found will change the way you start your day.
 
@@ -294,7 +355,7 @@ No is a powerful word that will protect your precious mornings. When it’s time
 Bringing it all together
 The right morning routine can make your day, every day. The trick is to be intentional about your mornings, understanding that a.m. hours are precious and should be handled with care.
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -308,12 +369,12 @@ The right morning routine can make your day, every day. The trick is to be inten
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HfD-Uu-gqZ"/>
-                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZfM-Vy-ll5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5245" y="1586"/>
+            <point key="canvasLocation" x="6022" y="1512"/>
         </scene>
         <!--More View Controller-->
         <scene sceneID="gAI-v6-Gff">
@@ -324,9 +385,9 @@ The right morning routine can make your day, every day. The trick is to be inten
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e27-h0-xwy">
-                                <rect key="frame" x="154" y="652" width="107" height="45"/>
+                                <rect key="frame" x="51" y="638" width="126" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.4135699498" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Log Out">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -336,13 +397,13 @@ The right morning routine can make your day, every day. The trick is to be inten
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bNn-pV-fSz"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="kHe-TN-C2p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONY-Ry-mMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5297" y="808"/>
+            <point key="canvasLocation" x="5292.753623188406" y="795.53571428571422"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="gek-eb-VnI">
@@ -355,7 +416,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlr-0R-SDO">
                                 <rect key="frame" x="113" y="463" width="189" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Take a daily test">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -370,7 +431,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VSn-Ep-HE0"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="sux-FL-i1Z"/>
                     <connections>
@@ -397,11 +458,12 @@ The right morning routine can make your day, every day. The trick is to be inten
                         <segue destination="m2J-jX-qF7" kind="relationship" relationship="viewControllers" id="CfB-47-j54"/>
                         <segue destination="NTn-Hk-RsW" kind="relationship" relationship="viewControllers" id="rD0-3B-Lim"/>
                         <segue destination="JhU-nI-H2c" kind="relationship" relationship="viewControllers" destinationCreationSelector="allowsSelection" id="6cm-2a-E8Q"/>
+                        <segue destination="lTX-2I-ueb" kind="relationship" relationship="viewControllers" id="G78-PR-dXd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I9O-7f-d12" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3199" y="80"/>
+            <point key="canvasLocation" x="3201" y="57"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="yoh-Ry-NOt">
@@ -472,7 +534,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-4Y-KCB">
                                 <rect key="frame" x="148" y="548" width="117" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="27"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -483,7 +545,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XGa-xF-UY3"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <connections>
                         <outlet property="email" destination="rYC-ws-aUo" id="cGQ-Am-HB3"/>
@@ -538,7 +600,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ksa-im-Nvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3408.6956521739135" y="795.53571428571422"/>
+            <point key="canvasLocation" x="3409" y="796"/>
         </scene>
         <!--Read-->
         <scene sceneID="kit-Rf-VyH">
@@ -562,18 +624,611 @@ The right morning routine can make your day, every day. The trick is to be inten
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMo-Rp-45C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4370" y="808"/>
+            <point key="canvasLocation" x="4370" y="796"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ddd-t0-jax">
+            <objects>
+                <viewController id="aU3-oV-G4M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Td-CY-6Ql">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2y-T7-B9A">
+                                <rect key="frame" x="0.0" y="153" width="414" height="974"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">“Accept what is, let go of what was, and have faith in what will be.” ~Sonia Ricotti
+
+I would lie awake at night aching for rest and relief from my racing mind. Hot milk with honey, yoga postures with my feet above my head, no chocolate after three in the afternoon—I had tried it all.
+
+I was weaning myself off sleeping pills. Wrenching myself from my love affair with the tiny white disc. I’d pop it under my tongue to slide from the shackles of adrenaline. They felt impossible to escape.
+
+I’d started using sleeping pills in my last semester of university, having begged my doctor for a prescription to stop the torture of lying awake night after night. One day running straight into the next, and the next, and the next. An endless horror-film loop.
+
+I felt lost.
+
+And alone.
+
+It wasn’t a new feeling. I’d felt that way for years.
+
+I’d lie awake and wonder why I didn’t feel better, wish I could feel like everyone else seemed to—content, confident, happy. Why wasn’t that my life?
+
+And then, one day, I decided to see what else was possible. If I could feel a different way. If I could feel better.
+
+It took time. And patience. Self-exploration. And courage. But I did get there.
+
+If you’re feeling like I felt then, here are ten things to remember.
+
+1. We’re all in this together.
+I’ve felt that way. All of my closest friends have felt that way. Family members of mine have felt that way. And, people who read Tiny Buddha—just like you—have felt that way. Or are feeling that way right now.
+
+One day a friend of mine surprised me. She was someone who always seemed positive and upbeat. Always sunny.
+
+I said to her, “Some days I just feel so alone, like nothing is okay.” She said: “Me too.” It made me feel better, and less alone. We’re all in this together.
+
+2. People share the highlights, not the lowlights.
+We can feel anxious, sad, and unhappy after going on Facebook or Instagram. We can end up feeling like we don’t have an awesome enough life; like, if we don’t have a glamorous event to photograph and share, we suck.
+
+But people share the highlights, not the lowlights. I’ve talked with so many people whose lives look amazing on Facebook and Instagram who tell me, “I feel sad. I feel like no one cares. I feel alone.”
+
+3. It’s okay to be right where you are.
+Sometimes we think we need to be making progress and moving forward, that we need to be a shining ray of light all the time. But the truth is, we need times when we’re pausing.
+
+Those times are often when we feel more lost and alone. We’re figuring things out, re-evaluating what we thought we wanted. It helps to let ourselves rest in the knowledge that this time is natural and normal, rather than tell ourselves we need to be making progress and moving forward.
+
+4. Change happens in the mess.
+The truth is that we often can’t feel better until we have a little meltdown. Or a big one. Change means shifting into something different, and to do that we may need to let go of some things and allow them melt away. This can get messy.
+
+I had to let go of the thought that I needed to be what everyone else thought I should be. To do this, I started to notice my thinking, especially thoughts that included the words “should” and “have to.” Then I got myself to question those thoughts: Is that absolutely true? Do you have to?
+
+When I gave myself the time and space to explore those questions, a freedom came. It was the experience of being able to question my own thinking, which helped me see that I didn’t need to believe all of my thoughts. From there, I was able to choose other thoughts. From there, I was able to choose other actions.
+
+That change wouldn’t have happened without me getting messy, having a meltdown, and letting go of some things.
+
+5. New beginnings can feel like endings.
+Do you remember a time when you started something new? A new school year? A new summer break? A new relationship?
+
+I bet if you look back you’ll recognize that there was an ending that happened before that new beginning. And during that ending you might have been sad and felt alone. But eventually, those feelings transformed when the ending gave way to a new beginning.
+
+6. It’s easier if you let it be there.
+The harder we fight the way we’re feeling, the harder it is to feel that way. The more we let it be there, the easier it gets to feel that way. The feeling no longer feels scary, or like something we need to try to avoid.
+
+And often, as a result, the feeling will fade away. Sometimes quickly. But resisting the feeling can make it feel bigger and harder to handle.
+
+7. Being alone can bring you peace.
+When we’re alone, we’re faced with our feelings and our thoughts. It’s harder to distract ourselves.
+
+If we let these times of feeling lost and alone be all that they can be—messy, uncomfortable, hard—we can learn to handle them. We can learn that they don’t need to be avoided. And that helps us feel stronger, like we can handle anything, and that can bring us peace.
+
+8. Feelings can heal you.
+All of the emotions that arise when we feel lost and alone can point to what we need to heal within ourselves. They can be like signposts on the road to freedom, saying, “Look over here. Go this way.”
+
+The sadness I felt when I felt most alone was pointing my attention toward expectations I had of myself: that I had to be in a relationship in order to be happy, that I had to be busy and socializing all of the time in order to be like other people, that I had to live an exciting-all-the-time life.
+
+Letting go of those expectations helped me heal those misunderstandings within myself. Without the sadness, I wouldn’t have spotted them.
+
+9. It doesn’t mean anything is wrong with you.
+I hesitated to write this in this way. And I don’t mean it to sound harsh or unfeeling.
+
+Accepting that life is kind of sucky sometimes can help us get through the times where we feel lost and alone. It doesn’t mean anything is wrong with you. It’s just part of being alive.
+
+10. The sun will come out tomorrow.
+Okay, I know it might actually rain. But what will happen for sure is that a new day will dawn. And in the dawn of a new day, you might feel better.
+
+Also, be gentle. Be soft. Be caring. We’re all in this together. And there are other people who feel exactly the same way.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 Things to Remember When You Feel Lost and Alone" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bai-Te-PYq">
+                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TO5-tG-ABK"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTX-n4-7s8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5367" y="1586"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y8E-pE-WLD">
+            <objects>
+                <viewController id="eVB-iE-51r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1YD-Op-Vyt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBi-vC-1sY">
+                                <rect key="frame" x="0.0" y="153" width="414" height="4322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">You got rear-ended on the way to the office, your swivel chair has a flat tyre, the coffee machine is haunted, and your two-week deadline has been pushed to yesterday, so you literally need to break the limits of space &amp; time in order to finish. In short, you are having ONE OF THOSE DAYS.
+
+Never fear, because here is a list of happy, cheery, feel-good songs to get you back in the game.
+
+Pocketful of Sunshine – Natasha Beddingfield
+Sunshine is more than just a nourishing source of vitamin D; getting a regular dose of sunlight is an essential component of being happy. So fill your pockets today.
+
+Instead of the music video, I’ve included this clip from the movie Easy A, which features this song, because it never fails to make me smile.
+
+
+
+C’est La Vie – B*Witched
+Here’s a throwback to the 90s, where music was awesome and all bands needed a synchronised dance routine. A catchy song with a positive message and some awesome Irish accents.
+
+
+
+Everything Is Awesome – Tegan &amp; Sara
+The theme song from the Lego Movie that came out a couple of years ago, and also our team theme song here at WorkflowMax. How can you feel sad while listening to this song? HOW?
+
+
+
+Don’t Worry, Be Happy – Bobby McFerrin
+Ten-time Grammy winner Bobby McFerrin serenades us with his most famous and cheeriest song, “Don’t Worry, Be Happy.” This song always reminds me of those singing “Be Happy” Bass fish you find in kitschy pubs and seafood restaurants around the world.
+
+
+
+Fireflies – Owl City
+A sweet song from Owl City, described by the band’s creator Adam Young as a “little song about bugs and not being able to fall asleep at night.” You could listen to this song on our Spotify playlist, but I recommend having a look at the video, because it’s awesome.
+
+
+
+Walk Like an Egyptian - The Bangles
+The Egyptians were pretty awesome. They invented paper, cat worship, and pyramids. And according to this Guardian article, for a large chunk of their history they had no religious persecution. They’re pretty cool. So is this song.
+
+
+
+Soul Bossa Nova – Quincy Jones
+A fun instrumental track composed by jazz legend Quincy Jones. Soul Bossa Nova has been featured on several TV, radio and film soundtracks. Most recently, it was the opening song from the Austin Powers films, which means you get treated to another film clip:
+
+
+
+Hey Ya! – OutKast
+Featuring one of the more ridiculous but memorable lines in hip hop music, “Shake it like a polaroid picture,” this song is a great one to crack up and groove along. The music video features an 8-piece band performing live, every member of which is played by with song’s writer, André 3000.
+
+
+
+Easy Livin’ – Uriah Heep
+Any fans of classic British rock out there? This one is for you. I had the pleasure of seeing the Heep perform live earlier this year, and this was their encore song. They may all be pushing retirement age, but they’ve still got it.
+
+Although the version on the playlist is the album version, I found this cool video of Mick and Bernie performing with the Bohemian Orchestra Prague on the Rock Meets Classic tour 2014.
+
+
+
+Hooked on a Feeling – Blue Swede
+This track was originally performed by B. J. Thomas in 1968, but was made famous by Blue Swede, who reached number 1 in the US with their cover in 1974. It is the title track on Guardians of the Galaxy, the only Marvel comic film I actually like (I know, I’m a Philistine).
+
+
+
+BONUS TRACK: Keep on the Sunny Side – The Whites
+I wanted to include this track but ran out of room, but I figure there’s no law that says I can’t give you a bonus song, so here you go. I’m a huge fan of classic Southern blues and gospel. I love how every song – even the happy ones – have a touch of darkness. This song always cheers me up, because it’s all about staying happy even though bad things might happen.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 Songs to Cheer You Up On a Crappy Day" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVC-7U-iCO">
+                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BFo-CJ-Wzt"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hD9-U0-T5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5423" y="2320"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9v4-oh-deO">
+            <objects>
+                <viewController id="rvY-Y1-u2a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hJR-Fh-2yq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBA-qd-l8R">
+                                <rect key="frame" x="0.0" y="153" width="414" height="4322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Being depressed can make you feel helpless. You're not. Along with therapy and sometimes medication, there's a lot you can do on your own to fight back. Changing your behavior -- your physical activity, lifestyle, and even your way of thinking -- are all natural depression treatments.
+
+These tips can help you feel better -- starting right now.
+
+1. Get in a routine. If you’re depressed, you need a routine, says Ian Cook, MD. He's a psychiatrist and director of the Depression Research and Clinic Program at UCLA.
+
+Depression can strip away the structure from your life. One day melts into the next. Setting a gentle daily schedule can help you get back on track.
+
+2.Set goals. When you're depressed, you may feel like you can't accomplish anything. That makes you feel worse about yourself. To push back, set daily goals for yourself.
+
+"Start very small," Cook says. "Make your goal something that you can succeed at, like doing the dishes every other day."
+
+As you start to feel better, you can add more challenging daily goals.
+
+3. Exercise. It temporarily boosts feel-good chemicals called endorphins. It may also have long-term benefits for people with depression. Regular exercise seems to encourage the brain to rewire itself in positive ways, Cook says.
+
+How much exercise do you need? You don’t need to run marathons to get a benefit. Just walking a few times a week can help.
+
+4. Eat healthy. There is no magic diet that fixes depression. It's a good idea to watch what you eat, though. If depression tends to make you overeat, getting in control of your eating will help you feel better.
+
+Although nothing is definitive, Cook says there's evidence that foods with omega-3 fatty acids (such as salmon and tuna) and folic acid (such as spinach and avocado) could help ease depression.
+
+5. Get enough sleep. Depression can make it hard to get enough shut-eye, and too little sleep can make depression worse.
+
+What can you do? Start by making some changes to your lifestyle. Go to bed and get up at the same time every day. Try not to nap. Take all the distractions out of your bedroom -- no computer and no TV. In time, you may find your sleep improves.
+
+6. Take on responsibilities. When you’re depressed, you may want to pull back from life and give up your responsibilities at home and at work. Don't. Staying involved and having daily responsibilities can help you maintain a lifestyle that can help counter depression. They ground you and give you a sense of accomplishment.
+
+If you're not up to full-time school or work, that’s fine. Think about part-time. If that seems like too much, consider volunteer work.
+
+7. Challenge negative thoughts. In your fight against depression, a lot of the work is mental -- changing how you think. When you're depressed, you leap to the worst possible conclusions.
+
+The next time you're feeling terrible about yourself, use logic as a natural depression treatment. You might feel like no one likes you, but is there real evidence for that? You might feel like the most worthless person on the planet, but is that really likely? It takes practice, but in time you can beat back those negative thoughts before they get out of control.
+
+8. Check with your doctor before using supplements. "There's promising evidence for certain supplements for depression," Cook says. Those include fish oil, folic acid, and SAMe. But more research needs to be done before we'll know for sure. Always check with your doctor before starting any supplement, especially if you’re already taking medications.
+
+9. Do something new. When you’re depressed, you’re in a rut. Push yourself to do something different. Go to a museum. Pick up a used book and read it on a park bench. Volunteer at a soup kitchen. Take a language class.
+
+"When we challenge ourselves to do something different, there are chemical changes in the brain," Cook says. "Trying something new alters the levels of [the brain chemical] dopamine, which is associated with pleasure, enjoyment, and learning."
+
+10. Try to have fun. If you’re depressed, make time for things you enjoy. What if nothing seems fun anymore? "That's just a symptom of depression," Cook says. You have to keep trying anyway.
+
+As strange as it might sound, you have to work at having fun. Plan things you used to enjoy, even if they feel like a chore. Keep going to the movies. Keep going out with friends for dinner.
+
+When you're depressed, you can lose the knack for enjoying life, Cook says. You have to relearn how to do it. In time, fun things really will feel fun again.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 Natural Depression Treatments" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5Y-NL-mXO">
+                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vh9-Ml-Mc5"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4St-WW-ncF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4754" y="2320"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qul-Zd-iOz">
+            <objects>
+                <viewController id="12H-VM-lVX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="frS-0Q-8Ur">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5N-yb-75j">
+                                <rect key="frame" x="0.0" y="153" width="414" height="4322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Try these tips to keep your balance, or re-balance yourself.*
+
+1. Value yourself:
+Treat yourself with kindness and respect, and avoid self-criticism. Make time for your hobbies and favorite projects, or broaden your horizons. Do a daily crossword puzzle, plant a garden, take dance lessons, learn to play an instrument or become fluent in another language.
+
+2. Take care of your body:
+Taking care of yourself physically can improve your mental health. Be sure to:
+
+Eat nutritious meals
+Avoid cigarettes -- see Tobacco Cessation Help
+Drink plenty of water
+Exercise, which helps decrease depression and anxiety and improve moods
+Get enough sleep. Researchers believe that lack of sleep contributes to a high rate of depression in college students. See Sleep. 
+3. Surround yourself with good people:
+People with strong family or social connections are generally healthier than those who lack a support network. Make plans with supportive family members and friends, or seek out activities where you can meet new people, such as a club, class or support group.
+
+4. Give yourself:
+Volunteer your time and energy to help someone else. You'll feel good about doing something tangible to help someone in need — and it's a great way to meet new people. See Fun and Cheap Things to do in Ann Arbor for ideas.
+
+5. Learn how to deal with stress:
+Like it or not, stress is a part of life. Practice good coping skills: Try One-Minute Stress Strategies, do Tai Chi, exercise, take a nature walk, play with your pet or try journal writing as a stress reducer. Also, remember to smile and see the humor in life. Research shows that laughter can boost your immune system, ease pain, relax your body and reduce stress.
+
+6. Quiet your mind:
+Try meditating, Mindfulness and/or prayer. Relaxation exercises and prayer can improve your state of mind and outlook on life. In fact, research shows that meditation may help you feel calm and enhance the effects of therapy. To get connected, see spiritual resources on Personal Well-being for Students
+
+7. Set realistic goals:
+Decide what you want to achieve academically, professionally and personally, and write down the steps you need to realize your goals. Aim high, but be realistic and don't over-schedule. You'll enjoy a tremendous sense of accomplishment and self-worth as you progress toward your goal. Wellness Coaching, free to U-M students, can help you develop goals and stay on track. 
+
+8. Break up the monotony:
+Although our routines make us more efficient and enhance our feelings of security and safety, a little change of pace can perk up a tedious schedule. Alter your jogging route, plan a road-trip, take a walk in a different park, hang some new pictures or try a new restaurant. See Rejuvenation 101 for more ideas.
+
+9. Avoid alcohol and other drugs:
+Keep alcohol use to a minimum and avoid other drugs. Sometimes people use alcohol and other drugs to "self-medicate" but in reality, alcohol and other drugs only aggravate problems. For more information, see Alcohol and Other Drugs.
+
+10. Get help when you need it:
+Seeking help is a sign of strength — not a weakness. And it is important to remember that treatment is effective. People who get appropriate care can recover from mental illness and addiction and lead full, rewarding lives. See Resources for Stress and Mental Health for campus and community resources.
+
+*Adapted from the National Mental Health Association/National Council for Community Behavioral Healthcare</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ten Things You Can Do for Your Mental Health" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhQ-MP-V8u">
+                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YWb-j3-IUJ"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZDH-0j-O5X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4100" y="2319.6428571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ze4-XD-0WS">
+            <objects>
+                <viewController id="tOa-95-y6i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EQt-X4-gwC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8b-kb-drc">
+                                <rect key="frame" x="0.0" y="153" width="414" height="4322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">With COVID-19 already hitting its second wave, we're getting more and more used to having to social distance (or distance socialize). But just because we may be stuck at home doesn't mean we can't make new friends.
+
+Here are some tips. 
+
+1. Reconnect with old friends: When people ask me how to make friends, my first suggestion is to reconnect with old friends. Why? Research finds that when we reconnect with past friends, we have a higher level of trust with them than we do current acquaintances. We start our friendship off with more shared memories and knowledge of one another, and so, our friendship potential is supercharged. 
+
+Plus, most of us lose friends not because there were some insurmountable incompatibilities in the friendship, but because we got busy. Now's the time to reconnect with friends that you've fallen out of touch with who you wish you hadn't. 
+
+This looks like: "Hey! It's been a while since we talked and I've been wondering how you are. What's new with you?" Take it from there, and if they're responsive, suggest a time to catch-up. 
+
+2. Connect digitally: There are tons of ways to connect online. There are apps, like Bumble BFF, or Friender to meet people. Meetup.com has a variety of virtual events. You can join a Facebook group, post regularly, and ask if anyone is open to a virtual chat. People even connect with strangers through Instagram or Twitter. After commenting on someone's posts over time, eventually, start direct messaging them to develop a more meaningful connection. 
+
+This looks like: "Hey! I've been such a fan of all the things you post. It seems like we have [insert thing] in common. I was wondering if you'd be open to connecting further over a virtual chat."
+
+3. Turn acquaintances into friends: We all have some people swirling in our lives who we'd love to get to know a bit better. It could be someone from your old book club or biking group or a friend of a friend you met at a gathering. You can turn these acquaintances into friends by taking the initiative to reach out and ask them to meet up one-on-one. 
+
+This looks like: "Hey! It's been a while since we had a chance to connect. I've been meaning to reach out and see if you'd be open to hanging out sometime."
+
+4. Become friends with people you already see regularly. When we become friends with people we see regularly (like our neighbors or our co-workers), we capitalize on something called the mere exposure effect, which describes our tendency to like people the more familiar they are to us. One study involved planting strangers in a large lecture course for varying numbers of classes. At the end of the semester, students in the class were asked who they liked best amongst the strangers. It turns out they preferred the strangers who showed up for the most classes. This was true even though the students didn't remember any of the strangers AND didn't interact with any of them during the class. 
+
+Because of the mere exposure effect, we already have some friendship traction when we try to build relationships with people we see regularly. 
+
+This looks like: "Hey! I know we've been working together for a while and I've been meaning to find some time for us to get to know each other more. I was wondering if you wanted to set aside some time for a virtual coffee?"
+
+5. Tell friends or family to put you in touch with someone you might get along with: When friends put us in touch with their friends, they pre-vet our connections. Research also finds that when we're friends with our friend's friends, we're less likely to be lonely. This may be because now, every time our friend and their friend spend time together, they'll consider inviting us to join. It's a win-win all around.
+
+This looks like: "Hey! I've been wanting to connect with some new people. Do you know anyone who you think I'd get along with who you'd be willing to connect me to?"
+
+The common thread here is that if you want to make friends while you're stuck at home, you're going to have to take initiative. It'll pay off. One study found that the more people thought that making friends takes effort, the less lonely they were years later, and other research finds that the more we take initiative, the happier we are with our social circle. I know it can be scary to reach out, especially when we fear rejection, but according to the research, we overestimate our likelihood of being rejected. It's not as scary as it seems. 
+
+It's easy to get lonely when you're stuck at home all day, but you don't have to be. Just reach out. 
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5 Ways to Make New Friends When You're Stuck at Home" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EY-zA-MRN">
+                                <rect key="frame" x="20" y="20" width="374" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dWy-Fm-djl"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMB-3F-bnl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3460.8695652173915" y="2319.6428571428569"/>
+        </scene>
+        <!--Master-->
+        <scene sceneID="irR-Lf-Yno">
+            <objects>
+                <navigationController title="Master" id="lTX-2I-ueb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Svp-dL-6oA"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" largeTitles="YES" id="tgc-Pt-R8N">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.92138129469999996" green="0.92155820129999999" blue="0.92135167120000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.26274509800000001" green="0.80392156859999997" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Vcz-MZ-dKG" kind="relationship" relationship="rootViewController" id="MNk-3F-Hm7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TXZ-u6-iLg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5293" y="57"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="x3M-XS-CsK">
+            <objects>
+                <viewController title="Detail" id="I5C-7l-gNV" customClass="DetailViewController" customModule="Moodly2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FVK-Js-jwB"/>
+                        <viewControllerLayoutGuide type="bottom" id="jxG-hG-wTb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yet-ku-qFu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RPe-dy-lBF">
+                                <rect key="frame" x="20" y="150" width="374" height="663"/>
+                                <subviews>
+                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1lN-Ua-nYh">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="663"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Cun-WV-vrU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="1lN-Ua-nYh" firstAttribute="leading" secondItem="RPe-dy-lBF" secondAttribute="leading" id="71f-QW-mV9"/>
+                                    <constraint firstAttribute="trailing" secondItem="1lN-Ua-nYh" secondAttribute="trailing" id="fU3-YF-wjq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FUR-9d-3CM"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="RPe-dy-lBF" secondAttribute="trailing" id="I8E-Vh-lFd"/>
+                            <constraint firstItem="RPe-dy-lBF" firstAttribute="top" secondItem="FVK-Js-jwB" secondAttribute="bottom" constant="10" id="Lsc-b7-hip"/>
+                            <constraint firstItem="RPe-dy-lBF" firstAttribute="bottom" secondItem="jxG-hG-wTb" secondAttribute="top" id="V5i-gN-UX5"/>
+                            <constraint firstItem="RPe-dy-lBF" firstAttribute="leading" secondItem="yet-ku-qFu" secondAttribute="leading" constant="20" id="yQQ-v7-Ua2"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Services" largeTitleDisplayMode="always" id="nPI-ig-Kix"/>
+                    <connections>
+                        <outlet property="detailDescriptionLabel" destination="1lN-Ua-nYh" id="DtZ-PC-m9L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9v-mK-v3z" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7051" y="57"/>
+        </scene>
+        <!--Master-->
+        <scene sceneID="6pb-zE-Xqd">
+            <objects>
+                <viewController title="Master" id="Vcz-MZ-dKG" customClass="MasterViewController" customModule="Moodly2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mPA-hV-fL3"/>
+                        <viewControllerLayoutGuide type="bottom" id="U6P-YD-BfE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HJ2-Sz-vHc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2E7-P0-bfU">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="ap6-xy-at1" detailTextLabel="xO5-g0-gVy" style="IBUITableViewCellStyleSubtitle" id="i3w-ib-wbm">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i3w-ib-wbm" id="F3A-ej-Vq5">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ap6-xy-at1">
+                                                    <rect key="frame" x="20" y="5" width="33" height="20.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xO5-g0-gVy">
+                                                    <rect key="frame" x="20" y="25.5" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="I5C-7l-gNV" kind="show" identifier="ShowDetailSegue" id="mP2-Ef-Tee"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Vcz-MZ-dKG" id="8iK-Pl-H5t"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J23-Nm-44x" customClass="SearchFooter" customModule="Moodly2_0" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="852" width="414" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dQg-YI-qdB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ESs-PB-aNJ"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J23-Nm-44x" firstAttribute="leading" secondItem="HJ2-Sz-vHc" secondAttribute="leading" id="3iK-wo-9DU"/>
+                            <constraint firstAttribute="trailing" secondItem="2E7-P0-bfU" secondAttribute="trailing" id="DHT-CI-Q7X"/>
+                            <constraint firstItem="U6P-YD-BfE" firstAttribute="top" secondItem="2E7-P0-bfU" secondAttribute="bottom" id="eaD-PR-ESy"/>
+                            <constraint firstAttribute="trailing" secondItem="J23-Nm-44x" secondAttribute="trailing" id="enA-da-9tR"/>
+                            <constraint firstItem="2E7-P0-bfU" firstAttribute="leading" secondItem="HJ2-Sz-vHc" secondAttribute="leading" id="gDb-LA-6RS"/>
+                            <constraint firstItem="2E7-P0-bfU" firstAttribute="top" secondItem="mPA-hV-fL3" secondAttribute="bottom" id="hPY-pD-snS"/>
+                            <constraint firstAttribute="bottom" secondItem="J23-Nm-44x" secondAttribute="bottom" id="vr8-TG-TDM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="5Om-xo-0KZ">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="int-U5-FCc">
+                            <rect key="frame" x="132" y="5.5" width="150" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inline-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="b9K-2i-AhO">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="33"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="b9K-2i-AhO" secondAttribute="bottom" id="8yv-Ch-spk"/>
+                                <constraint firstAttribute="trailing" secondItem="b9K-2i-AhO" secondAttribute="trailing" id="lJW-6F-jzz"/>
+                                <constraint firstItem="b9K-2i-AhO" firstAttribute="leading" secondItem="int-U5-FCc" secondAttribute="leading" id="vYb-D0-gGK"/>
+                                <constraint firstItem="b9K-2i-AhO" firstAttribute="top" secondItem="int-U5-FCc" secondAttribute="top" id="yxv-Xw-gZ0"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="searchFooter" destination="J23-Nm-44x" id="DI6-uL-XGU"/>
+                        <outlet property="searchFooterBottomConstraint" destination="vr8-TG-TDM" id="6qO-R5-UAt"/>
+                        <outlet property="tableView" destination="2E7-P0-bfU" id="wPe-yr-PdZ"/>
+                        <outlet property="view" destination="HJ2-Sz-vHc" id="D5Y-bB-Ov8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPt-aI-ibJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6190" y="57"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VKs-FE-4yQ"/>
+        <segue reference="khR-Fo-L5P"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="Inline-Logo" width="300" height="100"/>
         <image name="app" catalog="system" width="128" height="114"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -593,8 +1248,8 @@ The right morning routine can make your day, every day. The trick is to be inten
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="tertiarySystemFillColor">
-            <color red="0.46274509803921571" green="0.46274509803921571" blue="0.50196078431372548" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
