@@ -18,18 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq6-1g-b3d">
-                                <rect key="frame" x="0.0" y="477" width="414" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="separatorColor"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
-                                <state key="normal" title="LOGIN">
-                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="aUr-Os-FU0" kind="presentation" identifier="loginView" id="mLW-xw-nd7"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Kjl-vo-HtQ">
                                 <rect key="frame" x="113" y="168" width="188" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -45,6 +33,18 @@
                                 </state>
                                 <connections>
                                     <segue destination="KqU-EP-khB" kind="presentation" identifier="signupView" id="CYa-XX-RAn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq6-1g-b3d">
+                                <rect key="frame" x="0.0" y="486" width="414" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="29"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aUr-Os-FU0" kind="presentation" identifier="loginView" id="mLW-xw-nd7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -385,7 +385,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e27-h0-xwy">
-                                <rect key="frame" x="51" y="638" width="126" height="50"/>
+                                <rect key="frame" x="61" y="423" width="126" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Log Out">
@@ -393,6 +393,17 @@ The right morning routine can make your day, every day. The trick is to be inten
                                 </state>
                                 <connections>
                                     <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="QOC-BK-lyT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVK-Yk-4O6">
+                                <rect key="frame" x="76" y="279" width="195" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Notification Centre">
+                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="logOutAction:" destination="JhU-nI-H2c" eventType="touchUpInside" id="w4L-tX-PkI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -413,15 +424,6 @@ The right morning routine can make your day, every day. The trick is to be inten
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlr-0R-SDO">
-                                <rect key="frame" x="113" y="463" width="189" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Take a daily test">
-                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj9-bb-T1N">
                                 <rect key="frame" x="20" y="110" width="374" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -429,6 +431,29 @@ The right morning routine can make your day, every day. The trick is to be inten
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Edvard" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZM-pd-Sjk">
+                                <rect key="frame" x="20" y="289" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I hope your day is going great" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJa-HO-fig">
+                                <rect key="frame" x="20" y="331" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlr-0R-SDO">
+                                <rect key="frame" x="113" y="554" width="189" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Take a daily test">
+                                    <color key="titleColor" red="0.92896653100000004" green="1" blue="0.92080024240000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VSn-Ep-HE0"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
@@ -440,7 +465,7 @@ The right morning routine can make your day, every day. The trick is to be inten
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1LK-7M-Pd6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3409" y="1586"/>
+            <point key="canvasLocation" x="3408.6956521739135" y="1585.7142857142856"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="uh8-dp-HJW">
@@ -1045,7 +1070,7 @@ It's easy to get lonely when you're stuck at home all day, but you don't have to
         <scene sceneID="irR-Lf-Yno">
             <objects>
                 <navigationController title="Master" id="lTX-2I-ueb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Svp-dL-6oA"/>
+                    <tabBarItem key="tabBarItem" title="Call an Assistance" image="phone.fill" catalog="system" id="Svp-dL-6oA"/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" largeTitles="YES" id="tgc-Pt-R8N">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1186,18 +1211,7 @@ It's easy to get lonely when you're stuck at home all day, but you don't have to
                         <view key="titleView" contentMode="scaleToFill" id="int-U5-FCc">
                             <rect key="frame" x="132" y="5.5" width="150" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inline-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="b9K-2i-AhO">
-                                    <rect key="frame" x="0.0" y="0.0" width="150" height="33"/>
-                                </imageView>
-                            </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="bottom" secondItem="b9K-2i-AhO" secondAttribute="bottom" id="8yv-Ch-spk"/>
-                                <constraint firstAttribute="trailing" secondItem="b9K-2i-AhO" secondAttribute="trailing" id="lJW-6F-jzz"/>
-                                <constraint firstItem="b9K-2i-AhO" firstAttribute="leading" secondItem="int-U5-FCc" secondAttribute="leading" id="vYb-D0-gGK"/>
-                                <constraint firstItem="b9K-2i-AhO" firstAttribute="top" secondItem="int-U5-FCc" secondAttribute="top" id="yxv-Xw-gZ0"/>
-                            </constraints>
                         </view>
                     </navigationItem>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -1214,13 +1228,13 @@ It's easy to get lonely when you're stuck at home all day, but you don't have to
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="khR-Fo-L5P"/>
+        <segue reference="VKs-FE-4yQ"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Inline-Logo" width="300" height="100"/>
         <image name="app" catalog="system" width="128" height="114"/>
         <image name="books.vertical.fill" catalog="system" width="128" height="100"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

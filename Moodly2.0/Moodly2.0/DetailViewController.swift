@@ -17,8 +17,8 @@ class DetailViewController: UIViewController {
   func configureView() {
     if let service = service,
       let detailDescriptionLabel = detailDescriptionLabel{
-      detailDescriptionLabel.text = service.name
-      title = service.name
+        detailDescriptionLabel.text = service.name
+      title = service.phoneNumber.rawValue
     }
   }
 }

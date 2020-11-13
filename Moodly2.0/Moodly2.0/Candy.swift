@@ -8,6 +8,7 @@ struct Services: Decodable {
     case all
     case mental
     case depression
+    case anxiety
     case other
   }
 }
@@ -20,8 +21,9 @@ extension Services.Number: RawRepresentable {
   init?(rawValue: RawValue) {
     switch rawValue {
     case "All": self = .all
-    case "Chocolate": self = .mental
-    case "Hard": self = .depression
+    case "Mental": self = .mental
+    case "Depression": self = .depression
+    case "Anxiety": self = .anxiety
     case "Other": self = .other
     default: return nil
     }
@@ -31,7 +33,8 @@ extension Services.Number: RawRepresentable {
     switch self {
     case .all: return "All"
     case .mental: return "Mental"
-    case .depression: return "Derpression"
+    case .depression: return "Depression"
+    case .anxiety: return "Anxiety"
     case .other: return "Other"
     }
   }
