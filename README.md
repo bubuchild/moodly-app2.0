@@ -1,4 +1,4 @@
-# moodly-app2.0
+# Moodly App
 Second version of a Moodly app
 
 Moodly app is an iOS application developed for London South Bank University second year BcS Computer Science coursework.
